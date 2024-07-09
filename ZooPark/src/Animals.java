@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+
 
 public class Animals {
     int age;

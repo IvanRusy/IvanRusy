@@ -19,6 +19,6 @@ public class Busel extends  Birds implements Actions{
         System.out.println("Busel soars in the sky");
     }
     public void info(){
-        System.out.printf("Lion is %d years old, has %s name, has %d wings%n", age, name, wingsNumber);
+        System.out.printf("Busel is %d years old, has %s name, has %d wings%n", age, name, wingsNumber);
     }
 }

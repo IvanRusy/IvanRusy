@@ -18,6 +18,6 @@ public class Bear extends Animals implements Actions{
         System.out.println("Bear is running");
     }
     public void info(){
-        System.out.printf("Lion is %d years old, has %s name, run %d km every day%n", age, name, distanceWalking);
+        System.out.printf("Bear is %d years old, has %s name, run %d km every day%n", age, name, distanceWalking);
     }
 }
