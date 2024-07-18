@@ -14,7 +14,6 @@ public class TestNgTraining extends BaseTest{
         System.out.println("After test method children");
     }
 
-
     @BeforeClass
     public void beforeClassClass() {
         System.out.println("Before test class children");
@@ -31,6 +30,6 @@ public class TestNgTraining extends BaseTest{
 
     @Test
     public void checkNgTest(){
-        System.out.println("I check NGtest");
+        System.out.println("I check NGTest");
     }
 }
