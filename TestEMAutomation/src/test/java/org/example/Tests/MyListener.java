@@ -14,6 +14,6 @@ public class MyListener implements ITestListener {
     @Override
     public void onStart(ITestContext context) {
         ITestListener.super.onStart(context);
-        System.out.println("Starting test" + context.);
+        System.out.println("Starting test" + context);
     }
 }
