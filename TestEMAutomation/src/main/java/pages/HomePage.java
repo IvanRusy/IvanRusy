@@ -15,7 +15,7 @@ public class HomePage extends BasePage {
         driver.findElement(By.xpath(String.format(linkPattern, targetLinks.linkValue))).click();
     }
 
-    HomePage(WebDriver driver){
+    public HomePage(WebDriver driver){
         super(driver);
     }
 
