@@ -20,12 +20,16 @@ public class HomePage extends BasePage {
     }
 
    public enum Links{
-        TEXT_INPUT("Text Input");
+        TEXT_INPUT("Text Input"),
+        CLICK("Click"),
+       DYNAMIC_TABLE("Dynamic Table"),
+       ALERTS("Alerts"),
+       MOUSE_OVER("Mouse Over");
 
        final String linkValue;
 
-       Links(String s) {
-           linkValue = s;
+       Links(String linkValue) {
+           this.linkValue = linkValue;
        }
    }
 }

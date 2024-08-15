@@ -10,6 +10,11 @@ public class MyListener implements ITestListener {
         System.out.println("Test is Failure");
 
     }
+    @Override
+    public void onTestSuccess(ITestResult result) {
+        System.out.println("Test Success");
+    }
+
 
     @Override
     public void onStart(ITestContext context) {
